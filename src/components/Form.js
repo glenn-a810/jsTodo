@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Input = ({ value, setValue, setTodoData }) => {
+const Form = ({ value, setValue, setTodoData }) => {
   const handleChange = (e) => {
     setValue(e.target.value)
   }
@@ -40,4 +40,4 @@ const Input = ({ value, setValue, setTodoData }) => {
   )
 }
 
-export default Input
+export default Form
