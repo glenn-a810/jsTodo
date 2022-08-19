@@ -8,9 +8,9 @@ export default function App() {
   const [value, setValue] = useState('')
 
   return (
-    <div className="container">
-      <div className="todoBlock">
-        <div className="title">
+    <div className="flex items-center justify-center w-screen h-screen bg-blue-50">
+      <div className="w-full p-6 m-4 bg-white rounded shadow lg:w-3/4">
+        <div className="flex justify-between mb-3">
           <h1>할 일 목록</h1>
         </div>
         <List todoData={todoData} setTodoData={setTodoData} />
